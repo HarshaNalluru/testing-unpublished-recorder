@@ -1,0 +1,25 @@
+{
+  "name": "testing-unpublished-recorder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r esm -r ts-node/register --full-trace --timeout 1200000 \"test/*.spec.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure-tools/test-recorder": "file:azure-tools-test-recorder-2.0.0.tgz",
+    "@azure/data-tables": "^13.0.1",
+    "@azure/test-utils": "file:azure-test-utils-1.0.0.tgz"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.0",
+    "dotenv": "^16.0.0",
+    "esm": "3.2.25",
+    "mocha": "^9.2.1",
+    "ts-node": "10.6.0",
+    "typescript": "~4.2.0"
+  }
+}
