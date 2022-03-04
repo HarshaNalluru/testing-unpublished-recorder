@@ -1,6 +1,6 @@
 ## Steps to create this repo
 
-To leverage the recorder artifact from `azure-sdk-for-js` repo, we need the test in a specific format in terms of code as well as the folder structure.
+To leverage the recorder artifact from `azure-sdk-for-js` repo, we need the tests in a specific format in terms of code as well as the folder structure.
 
 ## Folder structure
 
