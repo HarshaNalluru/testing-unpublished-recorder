@@ -1,3 +1,7 @@
+## Leveraging unpublished `@azure-tools/test-recorder`
+
+This repo is a sample that shows how to leverage the unpublished `@azure-tools/test-recorder` with an SDK client from the [Azure/azure-sdk-for-js](https://github.com/Azure/azure-sdk-for-js) repo.
+
 ## Steps to create this repo
 
 To leverage the recorder artifact from `azure-sdk-for-js` repo, we need the tests in a specific format in terms of code as well as the folder structure.
