@@ -31,6 +31,14 @@ To leverage the recorder artifact from `azure-sdk-for-js` repo, we need the test
 - Create a fresh `.env` file with `TABLES_SAS_CONNECTION_STRING` and `TEST_MODE`
 - `npm install`
 - `npm run test`
+- Run the proxy tool as well as shown below
+
+## Running the proxy tool
+
+[Docker](https://www.docker.com/get-started) is required, as the [test proxy server](https://github.com/Azure/azure-sdk-tools/tree/main/tools/test-proxy) is run in a container during testing. When running the tests, ensure the Docker daemon is running and you have permission to use it.
+
+- Install [docker](https://www.docker.com/get-started)
+- `docker run -v <path-to-the-root-of-this-repo>:/srv/testproxy/ -p 5001:5001 -p 5000:5000 azsdkengsys.azurecr.io/engsys/testproxy-lin:1.0.0-dev.20220224.2`
 
 ### Note:
 
